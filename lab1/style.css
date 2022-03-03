@@ -1,0 +1,370 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("design/paper_vector.png"), url("design/grunge.png"), url("design/vector_image.png");
+    background-repeat: no-repeat;
+    background-color: #e3e3e3;
+    background-size: 10%, 17%, 30%;
+    background-position-x: 0, 15%, 100%;
+    max-width: 100%;
+}
+
+.main_page {
+    width: 100%;
+    height: 1028px;
+    margin: auto;
+    padding-bottom: 4%;
+}
+
+nav {
+    display: flex;
+    margin: 0;
+    width: 65%;
+    padding: 50px 20px 30px 50px;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+.logo {
+    padding: 20px 5px 10px 35px;
+    width: 30%;
+}
+
+nav dl {
+    margin: auto;
+    padding: auto;
+}
+
+dl.navbar dt {
+    font-family: 'Monda', sans-serif;
+    color: black;
+    font-size: 100%;
+    float: left;
+    display: block;
+    padding: 30px;
+}
+
+.navbar #home {
+    color: #8e3fbb;
+    font-weight: bold;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content1{
+    width: 17%;
+}
+
+.box {
+    width: 100%;
+    margin: 0;
+}
+
+.stroke_line_arrow img {
+    position: absolute;
+    width: 3%;
+    left: 5%;
+    bottom: 0;
+}
+
+.content2{
+    width: 78%;
+}
+
+.music_show_stroke img {
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 30%;
+}
+
+.rectangle_text_black {
+    font-family: 'Monda', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    transform: rotate(-5deg);
+}
+
+.rectangle_text_black p{
+    padding: 5px 10px 5px 10px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.rectangle_text_violet {
+    font-family: 'Monda', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: #831adc;
+    width: fit-content;
+    transform: rotate(-3deg);
+    margin-left: 20%;
+}
+
+.rectangle_text_violet p{
+    padding: 5px 10px 5px 10px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.text_box p {
+    font-family: 'Monda', sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-align: justify;
+    text-align-last: center;
+    width: 49%;
+    padding: 20px 0;
+    line-height: 1.1;
+}
+
+.text_box span {
+    color: #831adc;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content7{
+    width: 100%;
+}
+
+.rectangle_box {
+    width: 100%;
+    position: relative;
+}
+
+.rectangle_title h1{
+    font-family: 'Monda', sans-serif;
+    font-size: 85px;
+}
+
+.rectangle_text {
+    position: absolute;
+    bottom: 40%;
+    left: 55%;
+}
+
+.rectangle_text p{
+    font-family: 'Monda', sans-serif;
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    text-align-last: left;
+    width: 55%;
+    padding: 10px;
+}
+
+
+.rectangle_text span {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main_page button {
+    font-family: 'Monda', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 30px;
+    background-color: #b30be6;
+    border: 4px solid white;
+    transition-duration: 0.4s;
+    position: absolute;
+    bottom: 25%;
+    left: 55%;
+
+}
+
+.main_page button:hover {
+    background-color: #b30be6;
+    color: black;
+}
+
+.second_page {
+    width: auto;
+    margin: auto;
+    height: 1150px;
+    background-image: url("design/grunge2.png"), url("design/horizontal_stroke.png");
+    background-repeat: no-repeat;
+    background-color: #e3e3e3;
+    background-size: 30%, 29%;
+    background-position-x: 125%, 75%;
+    background-position-y: 25%, 39%;
+    padding-bottom: 2%;
+}
+
+.photos_top {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 250px;
+}
+
+.bwimg1 {
+    width: 528px;
+    height: 842px;
+}
+
+.content3{
+    width: 33%;
+}
+
+.content4{
+    width: 65%;
+}
+
+.content4 .box {
+    margin-left: 15%;
+    margin-top: 13%;
+}
+
+.content5{
+    width: 42%;
+}
+
+.reserve_tickets_text {
+    display: flex;
+    margin: 0;
+    width: fit-content;
+}
+
+.reserve_tickets_text .box {
+    margin: 0;
+}
+
+.content5 p {
+    font-family: 'Monda', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    text-align-last: left;
+    padding: 10px 45px 20px 0;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.content5 p span {
+    color: #831adc;
+    font-size: 14px;
+}
+
+.second_page h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 85px;
+    letter-spacing: 3px;
+}
+
+.second_page h1 span{
+    font-family: 'Staatliches', cursive;
+    font-size: 85px;
+    letter-spacing: 3px;
+    color: #9913e1;
+}
+
+.second_page button {
+    font-family: 'Monda', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 30px;
+    color: #9913e1;
+    border: 4px solid #9913e1;
+    transition-duration: 0.4s;
+}
+
+.second_page button:hover {
+    background-color: #9913e1;
+    color: white;
+}
+
+.concert_photos {
+    display: inline-block;
+    margin-left: auto;
+    transform: translateY(-120%);
+}
+
+.concert_photos img {
+    padding: 10px 0 10px 25px;
+}
+
+.footer {
+    width: 100%;
+    background-image: url("design/paper_tear3.png"), url("design/grunge3.png"), url("design/triangle.png");
+    background-size: 40%, 13%, 1%;
+    background-repeat: no-repeat;
+    background-color: #e3e3e3;
+    background-position-x: 100%, 0, 80%;
+    background-position-y: 100%, 100%, 10%;
+}
+
+.content6{
+    width: 25%
+}
+
+.footer h1 {
+    font-family: 'Monda', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.footer dl {
+    list-style: none;
+    padding: 0;
+}
+
+.footer dl dt {
+    font-family: 'Monda', sans-serif;
+    color: black;
+    font-size: 16px;
+    padding: 8px 0;
+}
+
+.footer img {
+    width: 35%;
+    margin-left: 70px;
+    padding: 30px;
+}
+
+.footer button {
+    background-image: url("design/triangle.png");
+    background-repeat: no-repeat;
+    background-size: 4%;
+    background-position-x: 80%;
+    background-position-y: 48%;
+    font-family: 'Monda', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 60px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: #9913e1;
+    border: 4px solid #9913e1;
+    transition-duration: 0.4s;
+}
+
+.footer button:hover {
+    background-color: #9913e1;
+    color: white;
+}
+
+.footer .logo {
+    width: 30%;
+}
